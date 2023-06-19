@@ -1,0 +1,58 @@
+// .background {
+//   background-image: url("@/assets/AuthBackground.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: absolute;
+//   width: 100%;
+//   min-height: 94vh;
+// }
+
+.main {
+  background: url("@/assets/AuthBackground.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  min-height: calc(100vh - 50px);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 156px;
+    max-width: 640px;
+
+    .title {
+      margin-bottom: 21px;
+    }
+
+    .subtitle {
+      margin-bottom: 54px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      width: 100%;
+
+      .label {
+        margin-bottom: 16px;
+      }
+
+      .input {
+        width: 100%;
+        margin-bottom: 36px;
+      }
+
+      .button {
+        width: 100%;
+        height: 50px;
+      }
+    }
+  }
+}

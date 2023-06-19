@@ -1,0 +1,15 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centredFormGroup {
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 24px !important;
+  text-align: center;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}

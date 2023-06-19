@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 15px;
+
+  .logo {
+    cursor: pointer;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+  }
+
+  .userName {
+    margin-right: 10px;
+  }
+}
